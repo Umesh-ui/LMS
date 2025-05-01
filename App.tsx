@@ -5,7 +5,7 @@ import AppNavigator from './src/AppNavigator';
 const App = () => {
   return (
     <SafeAreaView style={{flex: 1, backgroundColor: '#ffffff'}}>
-      <StatusBar backgroundColor={'#ff0000'} />
+      <StatusBar backgroundColor={'purple'} />
       <AppNavigator />
     </SafeAreaView>
   );
